@@ -1,0 +1,120 @@
+* { box-sizing: border-box; }
+body {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-image: linear-gradient(to bottom, #ffffff, #640000);
+    border: 2px solid #000000;
+}
+
+header {
+    background-color: #868686;
+    color: #000000;
+    height: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    margin-top: -4px;
+}
+nav{
+    float: left;
+    width: 200px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left:0;
+    font-size: 1.4em;
+}
+
+nav :visited{ color: #3d3d3d;}
+nav :link{ color: #000000;}
+nav :hover{ color: #ff0000;}
+
+nav a { text-decoration: none;
+        transition: color 2s ease;
+}
+
+
+main {
+    margin-left: 201px;
+    background-color: #868686;
+    height: fit-content;
+    display: block;
+    padding-bottom: 2em;
+    }
+h2 {
+    margin-left: 3px;
+}
+p{
+    margin-left: 4px;
+}
+h3{
+    margin-left: 3px;
+}
+
+footer {
+    margin-left: 201px;
+    text-align: center;
+    background-color: #868686;
+       
+}
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    padding-bottom: 100em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-left: 100px;
+    width: 99%;
+}
+
+
+td, th{
+    padding: 0.5em; 
+    border: 2px solid #000000;
+}
+
+td {text-align: center;}
+
+th{
+    color: #000000;
+}
+
+.text {text-align: left;}
+
+tr:nth-of-type(odd) {background-color: #8f000041;}
+
+#cleaning {
+    padding-top: 1em;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;}
+
+form { 
+    flex-flow: column nowrap;
+}
+
+input{
+    margin-bottom: 1.5em;
+    width: auto;
+    margin-left: 150px;
+    display: block;
+    margin-top: -2.5px;
+}
+table{margin-left: 3px;}
